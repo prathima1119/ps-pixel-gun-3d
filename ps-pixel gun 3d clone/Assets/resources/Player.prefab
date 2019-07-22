@@ -966,10 +966,12 @@ GameObject:
   - component: {fileID: 119619677}
   - component: {fileID: 4459790184094953018}
   - component: {fileID: 3992356857337025779}
+  - component: {fileID: 4677908567904606438}
+  - component: {fileID: 1582240306623942697}
   - component: {fileID: 3277632874953036915}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1065,13 +1067,41 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8577258196263886312}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 204f8173ce9704d45987fc1b6bfe278b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   FPSCamera: {fileID: 762412151788930736}
   playerNameText: {fileID: 8309922129630420961}
+--- !u!114 &4677908567904606438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577258196263886312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bbd54862aff9444499103a7ff49ce41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 2399656681542594070}
+  fireRate: 0.1
+--- !u!114 &1582240306623942697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577258196263886312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026ad106bf5fc034386c362d730d78ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1597500040}
+  startHealth: 100
 --- !u!114 &3277632874953036915
 MonoBehaviour:
   m_ObjectHideFlags: 0
